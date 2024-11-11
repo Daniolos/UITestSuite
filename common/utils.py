@@ -34,4 +34,4 @@ def click_text_on_screen(text: str):
 def click_word_on_screen(text: str):
     image = pyautogui.screenshot(f"screenshots/{text}.png")
     x, y = locate_word_center_on_image(image, text)
-    pyautogui.click(x, y)
+    pyautogui.click(x, y + 12)

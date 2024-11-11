@@ -31,3 +31,4 @@ def run_rick_roll():
         pyautogui.sleep(1)
 
         pyautogui.press("f")
+        pyautogui.sleep(10)
