@@ -3,7 +3,6 @@ import pyautogui
 
 from common.application_manager import ApplicationManager
 from config import APPLICATION_PATH
-from common.utils import click_icon_on_screen, click_text_on_screen
 
 
 def main():
